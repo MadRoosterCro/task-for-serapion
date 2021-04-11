@@ -18,7 +18,7 @@ module.exports = {
     return result;
   },
 
-  //Check the movie for local database
+  //Check the movie in local database
   isAvailable: (movieName) => {
     try {
       const result = fs.readFileSync("./movies.json", "utf-8");
