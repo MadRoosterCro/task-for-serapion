@@ -1,13 +1,13 @@
 # nodejs-tech-skill-task
 task for serapion
 
-Install Node Modules
+Install Node modules
 
 ```bash
 npm install
 ```
 
-Then run the express server.
+Then run the server.
 
 ```bash
 npm start

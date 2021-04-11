@@ -10,7 +10,7 @@ const {
  * @swagger
  * /getMovieDetails/{movieName}:
  *  get:
- *    description: Use to get the details of a movie
+ *    description: Use this to get the details of a movie
  *    parameters:
  *       - in: path
  *         name: movieName
