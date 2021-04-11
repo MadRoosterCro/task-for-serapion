@@ -24,7 +24,7 @@ module.exports = {
           const status = writeData(currentDb);
           if (status) {
             res.json({
-              Succes: 1,
+              Succes: "The movie has been successfully added to the database",
             });
           } else {
             res.json({
@@ -41,7 +41,7 @@ module.exports = {
       }
     } else {
       res.json({
-        Status: "Movie is available in database",
+        Status: "Movie is available in local database",
       });
     }
   },
