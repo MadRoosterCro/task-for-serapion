@@ -33,7 +33,7 @@ module.exports = {
           }
         } else {
           res.json({
-            Status: "Movie is not in TV_Maze",
+            Status: "Movie is not in TV_Maze database",
           });
         }
       } catch (err) {
