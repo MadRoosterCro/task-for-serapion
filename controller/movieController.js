@@ -55,11 +55,11 @@ module.exports = {
       }
       return true;
     }
-    const movieName = req.params.movieName;
+    let movieName = req.params.movieName;
 
     const words = movieName;
     const separateWord = words.toLowerCase().split(" ");
-    for (const i = 0; i < separateWord.length; i++) {
+    for (let i = 0; i < separateWord.length; i++) {
       separateWord[i] =
         separateWord[i].charAt(0).toUpperCase() + separateWord[i].substring(1);
     }
