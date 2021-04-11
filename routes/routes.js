@@ -10,7 +10,7 @@ const {
  * @swagger
  * /getMovieDetails/{movieName}:
  *  get:
- *    description: Use this to get the details of a movie
+ *    description: Use this to get the details of a movie. Click on try it out and write a movie name in the input field.
  *    parameters:
  *       - in: path
  *         name: movieName
@@ -23,7 +23,7 @@ router.get("/getMovieDetails/:movieName", showDetails);
  * @swagger
  * /checknadd:
  *  post:
- *    description: Find if the movie exists in local database. If not this will find the movie in http://api.tvmaze.com and add the movie to local database.
+ *    description: Find if the movie exists in local database using the first method. If it doesn't exist, this will find the movie in http://api.tvmaze.com and add it to the local db.
  *    consumes:
  *       - application/json
  *    parameters:

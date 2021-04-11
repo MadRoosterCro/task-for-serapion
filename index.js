@@ -10,7 +10,7 @@ app.use(cors());
 const swaggerOptions = {
   swaggerDefinition: {
     info: {
-      title: "Movie/show API",
+      title: "Movie/show API for Serapion",
       description: "Movie/shows details information",
       servers: ["http://localhost:3000"],
     },
