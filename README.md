@@ -29,4 +29,5 @@ Click on `Try it out!` button and in the input field enter the name of the movie
 
 If the movie/show is not in the db, you can use `POST` to add it via the external API. 
 
-Do the same as in the first method and in the input you can pass the movie name as a json and it will be added to our db. (ex. `{"name":"superman"}`)
+Do the same as in the first method and in the input you can pass the movie name as a json and it will be added to our db. (ex. `{"name":"superman"}`).
+
