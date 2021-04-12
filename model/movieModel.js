@@ -33,7 +33,7 @@ module.exports = {
     }
   },
 
-  //Get all data from local database
+  //Get data from local database
   readData: () => {
     try {
       const result = fs.readFileSync("./movies.json", "utf-8");
