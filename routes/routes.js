@@ -17,6 +17,7 @@ const {
  *    responses:
  *        description: A successful response with movie details
  */
+
 router.get("/getMovieDetails/:movieName", showDetails);
 
 /**
@@ -37,6 +38,7 @@ router.get("/getMovieDetails/:movieName", showDetails);
  *    responses:
  *        description: If it returns {status:1} it is succesfully written to the database.
  */
+
 router.post("/checknadd", checkNaddMovie);
 
 module.exports = router;
